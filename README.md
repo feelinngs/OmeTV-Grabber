@@ -1,47 +1,44 @@
 # Mmm OmeTV Uncover
 
-**Mmm OmeTV Uncover** is a JavaScript userscript that detects the remote peer's public IP address via WebRTC and enriches it with geolocation data using the IPGeolocation API. It also captures a snapshot of the remote video stream and presents all information in a modern draggable UI.
-
-> **Disclaimer**
->
-> This project displays approximate IP-based geolocation using publicly available network information. The reported location is an estimate and should not be considered the user's exact physical location.
+**Mmm OmeTV Uncover** is a JavaScript userscript that detects the remote peer's public IP address via WebRTC and displays geolocation data in a floating panel.
 
 ---
 
 ## Features
 
 - 🔥 IP-based geolocation
-- 🌍 Country, region, and city information
-- 📡 ISP detection
-- 🕒 Timezone details
-- 🖼️ Automatic remote video snapshot
+- 🌍 Country, region, city, and ISP
+- 🖼️ Automatic video snapshot
 - 🖱️ Draggable interface
-- ➖ Minimize and close controls
-- ⚡ Lightweight and fast
 
 ---
 
-## Requirements
+## All Rights Reserved
 
-- A modern Chromium-based browser
-- An IPGeolocation API key ([ipgeolocation.io](https://ipgeolocation.io/))
-- An OmeTV account ([ome.tv](https://ome.tv/))
+**© 2026 Mmm - All Rights Reserved**
 
 ---
 
-## Setup Guide
+## How to Use
 
-### 1. Create an IPGeolocation account
+1. Open [ome.tv](https://ome.tv/) and sign in.
+2. Press `F12` > **Console**.
+3. If Chrome asks, type `allow pasting` and press Enter.
+4. Paste the entire script into the Console and press Enter.
+5. Start a call — the panel will appear automatically.
 
-Visit [ipgeolocation.io](https://ipgeolocation.io/) and create a free account.
+---
 
-### 2. Copy your API key
+## License
 
-After signing in, open your dashboard and copy your API key.
+**All Rights Reserved - Mmm**
 
-### 3. Configure the script
+Unauthorized use, modification, or distribution is strictly prohibited.
 
-Replace:
+---
 
-```js
-let apiKey = "";
+<h1 align="center">DISCLAIMER</h1>
+
+<h4 align="center">
+Use this tool only for educational purposes. You are responsible for complying with all applicable laws and the OmeTV Terms of Service.
+</h4>
